@@ -1,0 +1,17 @@
+City,IATA Code,Lowest Price,UTC Arrival,Airlines,Baggage Price
+Paris,PAR,53.0,2023-12-20,U2,"{'1': 92.973, '2': 166.07299999999998}"
+Berlin,BER,32.0,2024-01-24,U2,"{'1': 77.248, '2': 150.348}"
+Tokyo,TYO,361.0,2023-10-10,AI,{'1': 0}
+Sydney,SYD,370.0,2023-11-06,3L,{'1': 268.209}
+Istanbul,IST,59.0,2023-10-21,PC,"{'1': 33.66, '2': 169.66}"
+Kuala Lumpur,KUL,204.0,2023-10-30,3L,{'1': 191.964}
+New York,NYC,289.0,2023-10-04,LY,{'1': 0}
+San Francisco,SFO,241.0,2023-10-21,Z0,{'1': 261.613}
+Cape Town,CPT,366.0,2023-10-25,MS,{'1': 32.801}
+Tel Aviv,TLV,0,None,None,None
+Viena,VIE,24.0,2023-10-21,FR,"{'1': 56.083, '2': 112.166}"
+Prague,PRG,48.0,2023-11-03,FR,"{'1': 84.116, '2': 168.232}"
+Vancouver,YVR,312.0,2023-10-22,FR,{'1': 258.842}
+Toronto,YTO,311.0,2024-01-27,W4,"{'1': 411.23, '2': 856.46}"
+Canberra,CBR,555.0,2023-11-09,LY,{'1': 260.44}
+Kiev,KEL,0,None,None,None

@@ -1,5 +1,9 @@
 import math
 from tkinter import *
+import os
+
+base_dir = os.path.dirname(__file__)
+file_path = os.path.join(base_dir, './tomato.png')
 
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
@@ -59,7 +63,7 @@ def count_down(count):
     canvas.itemconfig(canvas_text, text=f"{count_minutes}:{count_seconds}")
     if count > 0:
         global timer
-        timer = window.after(1000, count_down, count - 1)
+        timer = window.after(10, count_down, count - 1)
     else:
         start_timer()
         window.focus_force()
@@ -80,7 +84,7 @@ window.wm_geometry("+%d+%d" % (x, y))
 
 # Create a canvas
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
-tomato_image = PhotoImage(file="tomato.png")
+tomato_image = PhotoImage(file=file_path)
 canvas.create_image(100, 112, image=tomato_image)
 canvas_text = canvas.create_text(100, 130, text="00:00", fill='white', font=(FONT_NAME, 36, "bold"))
 canvas.grid(row=1, column=1)
