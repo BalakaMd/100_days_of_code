@@ -1,9 +1,3 @@
-# pyinstaller --name 'Pomodoro' \
-#             --icon 'ico.icns' \
-#             --windowed  \
-#             --add-data='./tomato.png:.' \
-#             main.py
-
-# import os
-# base_dir = os.path.dir_name(__file__)
-# file_path = os.path.join(base_dir, './strong_beat.wav')
+date = input("Which year did you want to travel to? Type tha date in this format YYY-MM-DD: ")
+year = date.split("-")
+print(year)
